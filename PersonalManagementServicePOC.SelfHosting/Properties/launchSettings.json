@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "PersonalManagementServicePOC.SelfHosting": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  personalmanagementservicepoc.selfhosting:
+    image: ${DOCKER_REGISTRY-}personalmanagementservicepocselfhosting
+    build:
+      context: .
+      dockerfile: PersonalManagementServicePOC.SelfHosting/Dockerfile
+     
+  personalmanagementservicepoc.azurehosts:
+    image: ${DOCKER_REGISTRY-}personalmanagementservicepocazurehosts
+    build:
+      context: .
+      dockerfile: PersonalManagementServicePOC.AzureHosts/Dockerfile
+
