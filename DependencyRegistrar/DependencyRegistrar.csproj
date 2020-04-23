@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Shared\Shared\ExceptionHandling\ExceptionHandling.csproj" />
+    <ProjectReference Include="..\Shared\Shared\ExceptionHandling\ExceptionHandling.csproj" />
     <ProjectReference Include="..\PersonalManagementServicePOC.Domain\PersonalManagementServicePOC.Domain.csproj" />
     <ProjectReference Include="..\Repository.PersonalManagementServicePOC\Repository.PersonalManagementServicePOC.csproj" />
   </ItemGroup>

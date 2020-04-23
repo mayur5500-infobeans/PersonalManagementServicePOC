@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!--<ProjectReference Include="..\Shared\Shared\ExceptionHandling\ExceptionHandling.csproj" />-->
     <ProjectReference Include="..\DependencyRegistrar\DependencyRegistrar.csproj" />
     <ProjectReference Include="..\PersonalManagementServicePOC.Application1\PersonalManagementServicePOC.Application.csproj" />
   </ItemGroup>
