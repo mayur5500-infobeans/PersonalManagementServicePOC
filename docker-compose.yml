@@ -5,7 +5,9 @@ services:
     image: ${DOCKER_REGISTRY-}personalmanagementservicepocselfhosting
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile    
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
      
   sql-server-db:
     container_name: sql-server-db
