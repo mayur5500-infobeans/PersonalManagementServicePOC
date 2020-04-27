@@ -1,7 +1,7 @@
 FROM microsoft/dotnet:2.2-sdk as build-image
  
 WORKDIR /home/app
- 
+EXPOSE 80
 #COPY ./*.sln ./
 #COPY ./*/*.csproj ./
 #RUN for file in $(ls *.csproj); do mkdir -p ./${file%.*}/ && mv $file ./${file%.*}/; done

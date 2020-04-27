@@ -13,6 +13,7 @@ namespace PersonalManagementServicePOC.SelfHosting
             var config = new ConfigurationBuilder()
                                  .SetBasePath(Directory.GetCurrentDirectory())
                                  .AddJsonFile("appsettings.json")
+                                 .AddJsonFile("launchSettings.json", optional: true)
                                  .AddJsonFile("hosting.json", optional: true)
                                  .Build();
 
